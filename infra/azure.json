@@ -60,6 +60,7 @@
       "type": "Microsoft.Storage/storageAccounts",
       "apiVersion": "2021-09-01",
       "name": "[variables('uniqueStorageName')]",
+      "location": "[parameters('location')]",
       "tags": "[parameters('resourceTags')]",
       "sku": {
         "name": "[parameters('storageSKU')]"
@@ -73,6 +74,7 @@
       "type": "Microsoft.Web/serverfarms",
       "apiVersion": "2021-03-01",
       "name": "[parameters('appServicePlanName')]",
+      "location": "[parameters('location')]",
       "tags": "[parameters('resourceTags')]",
       "sku": {
         "name": "B1",
@@ -93,6 +95,7 @@
       "type": "Microsoft.Web/sites",
       "apiVersion": "2021-03-01",
       "name": "[variables('webAppPortalName')]",
+      "location": "[parameters('location')]",
       "dependsOn": [
         "[parameters('appServicePlanName')]"
       ],
