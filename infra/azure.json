@@ -23,7 +23,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "[resourceGroup().location]"
+      "defaultValue": "eastus"
     },
     "appServicePlanName": {
       "type": "string",
@@ -52,8 +52,8 @@
     }
   },
   "variables": {
-    "uniqueStorageName": "[concat(parameters('storagePrefix'), uniqueString(resourceGroup().id))]",
-    "webAppPortalName": "[concat(parameters('webAppName'), uniqueString(resourceGroup().id))]"
+    "uniqueStorageName": "[concat(parameters('storagePrefix'), uniqueString('foobar'))]",
+    "webAppPortalName": "[concat(parameters('webAppName'), uniqueString('barfoo'))]"
   },
   "resources": [
     {
