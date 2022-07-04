@@ -1,0 +1,27 @@
+{
+    "identity": {
+      "type": "SystemAssigned"
+    },
+    "location": "westus2",
+    "properties": {
+      "blueprintId": "/providers/Microsoft.Management/managementGroups/HarnessARMTest/providers/Microsoft.Blueprint/blueprints/101-boilerplate-mng/versions/v2",
+      "resourceGroups": {
+        "SingleRG": {
+          "name": "mng-rg-001",
+          "location": "eastus"
+        }
+      },
+      "locks": {
+        "mode": "none"
+      },
+      "parameters": {
+        "principalIds": {
+          "value": "2fffcc83-09a8-450f-87f5-a25e3942dd10"
+        },
+        "genericBlueprintParameter": {
+          "value": "test"
+        }
+      },
+      "scope": "/subscriptions/5aef6b46-7daa-45ea-a8d0-783aab69dea3"
+    }
+  }

@@ -1,0 +1,26 @@
+{
+    "identity": {
+      "type": "SystemAssigned"
+    },
+    "location": "westus2",
+    "properties": {
+      "blueprintId": "/subscriptions/5aef6b46-7daa-45ea-a8d0-783aab69dea3/providers/Microsoft.Blueprint/blueprints/101-boilerplate-sub/versions/v1",
+      "resourceGroups": {
+        "SingleRG": {
+          "name": "sub-001",
+          "location": "eastus"
+        }
+      },
+      "locks": {
+        "mode": "none"
+      },
+      "parameters": {
+        "principalIds": {
+          "value": "569613dc-7ad8-4fad-ab03-d3117fcb6298"
+        },
+        "storageAccountType": {
+          "value": "Standard_LRS"
+        }
+      }
+    }
+  }
