@@ -27,8 +27,8 @@
           }
         },
         "variables": {
-          "storageAccountName": "[concat(replace(toLower(resourceGroup().name),'-',''), 'standardsanassertest')]",
-          "storageAccountNameSecond": "[concat(replace(toLower(resourceGroup().name),'-',''), 'standardscdsanassertest')]"
+          "storageAccountName": "[concat(replace(toLower(resourceGroup().name),'-',''), 'anassertest')]",
+          "storageAccountNameSecond": "[concat(replace(toLower(resourceGroup().name),'-',''), 'cdsanassertest')]"
         },
         "resources": [
           {
