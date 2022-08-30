@@ -1,9 +1,9 @@
 {
     "adminUsername": {
-      "value": "superadmin"
+      "value": "superadmin123"
     },
     "adminPasswordOrKey": {
-      "value": "Superpass123!"
+      "value": "Superpass123456!"
     },
     "dnsLabelPrefix": {
       "value": "dwdw"
