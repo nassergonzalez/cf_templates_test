@@ -56,7 +56,7 @@
     {
       "type": "Microsoft.Authorization/policyAssignments",
       "apiVersion": "2020-03-01",
-      "name": "location-lock",
+      "name": "policy-location-lock",
       "properties": {
         "scope": "[variables('mgScope')]",
         "policyDefinitionId": "[extensionResourceId(variables('mgScope'), 'Microsoft.Authorization/policyDefinitions', variables('policyDefinitionName'))]"
