@@ -4,7 +4,7 @@
     },
     "location": "westus2",
     "properties": {
-      "blueprintId": "/providers/Microsoft.Management/managementGroups/CD/providers/Microsoft.Blueprint/blueprints/nasser-boilerplate-mng/versions/v1",
+      "blueprintId": "/providers/Microsoft.Management/managementGroups/harness-group/providers/Microsoft.Blueprint/blueprints/nasser-boilerplate-mng/versions/v1",
       "resourceGroups": {
         "nasserTest": {
           "name": "nasserTest",
@@ -22,6 +22,6 @@
           "value": "test"
         }
       },
-      "scope": "/subscriptions/5aef6b46-7daa-45ea-a8d0-783aab69dea3"
+      "scope": "/subscriptions/0adb6dd5-9212-432b-ab19-c49e3aa75953"
     }
   }
