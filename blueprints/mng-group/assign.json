@@ -7,7 +7,7 @@
       "blueprintId": "/providers/Microsoft.Management/managementGroups/harness-group/providers/Microsoft.Blueprint/blueprints/nasser-boilerplate-mng/versions/v2",
       "resourceGroups": {
         "nasserTest": {
-          "name": "nasserTest",
+          "name": "nasserTest3",
           "location": "eastus"
         }
       },
