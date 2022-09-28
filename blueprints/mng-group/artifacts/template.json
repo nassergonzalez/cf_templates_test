@@ -15,7 +15,7 @@
           "variables": {},
           "resources": []
       },
-      "resourceGroup": "nasserTest",
+      "resourceGroup": "nasserTest3",
       "displayName": "My ARM Template",
       "parameters": {
         "myTemplateParameter": {
